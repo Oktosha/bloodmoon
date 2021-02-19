@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23D9E95725E05373007B8D4C /* bloodmoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E95625E05373007B8D4C /* bloodmoonApp.swift */; };
+		23D9E95925E05373007B8D4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E95825E05373007B8D4C /* ContentView.swift */; };
+		23D9E95B25E05375007B8D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D9E95A25E05375007B8D4C /* Assets.xcassets */; };
+		23D9E95E25E05375007B8D4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D9E95D25E05375007B8D4C /* Preview Assets.xcassets */; };
+		23D9E96925E05376007B8D4C /* bloodmoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E96825E05376007B8D4C /* bloodmoonTests.swift */; };
+		23D9E97425E05376007B8D4C /* bloodmoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E97325E05376007B8D4C /* bloodmoonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23D9E96525E05376007B8D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23D9E94B25E05373007B8D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D9E95225E05373007B8D4C;
+			remoteInfo = bloodmoon;
+		};
+		23D9E97025E05376007B8D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23D9E94B25E05373007B8D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D9E95225E05373007B8D4C;
+			remoteInfo = bloodmoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23D9E95325E05373007B8D4C /* bloodmoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bloodmoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D9E95625E05373007B8D4C /* bloodmoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodmoonApp.swift; sourceTree = "<group>"; };
+		23D9E95825E05373007B8D4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23D9E95A25E05375007B8D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23D9E95D25E05375007B8D4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23D9E95F25E05375007B8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D9E96425E05376007B8D4C /* bloodmoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bloodmoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D9E96825E05376007B8D4C /* bloodmoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodmoonTests.swift; sourceTree = "<group>"; };
+		23D9E96A25E05376007B8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D9E96F25E05376007B8D4C /* bloodmoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bloodmoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D9E97325E05376007B8D4C /* bloodmoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodmoonUITests.swift; sourceTree = "<group>"; };
+		23D9E97525E05376007B8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D9E95025E05373007B8D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9E96125E05376007B8D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9E96C25E05376007B8D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23D9E94A25E05373007B8D4C = {
+			isa = PBXGroup;
+			children = (
+				23D9E95525E05373007B8D4C /* bloodmoon */,
+				23D9E96725E05376007B8D4C /* bloodmoonTests */,
+				23D9E97225E05376007B8D4C /* bloodmoonUITests */,
+				23D9E95425E05373007B8D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23D9E95425E05373007B8D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23D9E95325E05373007B8D4C /* bloodmoon.app */,
+				23D9E96425E05376007B8D4C /* bloodmoonTests.xctest */,
+				23D9E96F25E05376007B8D4C /* bloodmoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23D9E95525E05373007B8D4C /* bloodmoon */ = {
+			isa = PBXGroup;
+			children = (
+				23D9E95625E05373007B8D4C /* bloodmoonApp.swift */,
+				23D9E95825E05373007B8D4C /* ContentView.swift */,
+				23D9E95A25E05375007B8D4C /* Assets.xcassets */,
+				23D9E95F25E05375007B8D4C /* Info.plist */,
+				23D9E95C25E05375007B8D4C /* Preview Content */,
+			);
+			path = bloodmoon;
+			sourceTree = "<group>";
+		};
+		23D9E95C25E05375007B8D4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23D9E95D25E05375007B8D4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23D9E96725E05376007B8D4C /* bloodmoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				23D9E96825E05376007B8D4C /* bloodmoonTests.swift */,
+				23D9E96A25E05376007B8D4C /* Info.plist */,
+			);
+			path = bloodmoonTests;
+			sourceTree = "<group>";
+		};
+		23D9E97225E05376007B8D4C /* bloodmoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23D9E97325E05376007B8D4C /* bloodmoonUITests.swift */,
+				23D9E97525E05376007B8D4C /* Info.plist */,
+			);
+			path = bloodmoonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D9E95225E05373007B8D4C /* bloodmoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D9E97825E05376007B8D4C /* Build configuration list for PBXNativeTarget "bloodmoon" */;
+			buildPhases = (
+				23D9E94F25E05373007B8D4C /* Sources */,
+				23D9E95025E05373007B8D4C /* Frameworks */,
+				23D9E95125E05373007B8D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bloodmoon;
+			productName = bloodmoon;
+			productReference = 23D9E95325E05373007B8D4C /* bloodmoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23D9E96325E05376007B8D4C /* bloodmoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D9E97B25E05376007B8D4C /* Build configuration list for PBXNativeTarget "bloodmoonTests" */;
+			buildPhases = (
+				23D9E96025E05376007B8D4C /* Sources */,
+				23D9E96125E05376007B8D4C /* Frameworks */,
+				23D9E96225E05376007B8D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D9E96625E05376007B8D4C /* PBXTargetDependency */,
+			);
+			name = bloodmoonTests;
+			productName = bloodmoonTests;
+			productReference = 23D9E96425E05376007B8D4C /* bloodmoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23D9E96E25E05376007B8D4C /* bloodmoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D9E97E25E05376007B8D4C /* Build configuration list for PBXNativeTarget "bloodmoonUITests" */;
+			buildPhases = (
+				23D9E96B25E05376007B8D4C /* Sources */,
+				23D9E96C25E05376007B8D4C /* Frameworks */,
+				23D9E96D25E05376007B8D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D9E97125E05376007B8D4C /* PBXTargetDependency */,
+			);
+			name = bloodmoonUITests;
+			productName = bloodmoonUITests;
+			productReference = 23D9E96F25E05376007B8D4C /* bloodmoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23D9E94B25E05373007B8D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					23D9E95225E05373007B8D4C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					23D9E96325E05376007B8D4C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 23D9E95225E05373007B8D4C;
+					};
+					23D9E96E25E05376007B8D4C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 23D9E95225E05373007B8D4C;
+					};
+				};
+			};
+			buildConfigurationList = 23D9E94E25E05373007B8D4C /* Build configuration list for PBXProject "bloodmoon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23D9E94A25E05373007B8D4C;
+			productRefGroup = 23D9E95425E05373007B8D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D9E95225E05373007B8D4C /* bloodmoon */,
+				23D9E96325E05376007B8D4C /* bloodmoonTests */,
+				23D9E96E25E05376007B8D4C /* bloodmoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D9E95125E05373007B8D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9E95E25E05375007B8D4C /* Preview Assets.xcassets in Resources */,
+				23D9E95B25E05375007B8D4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9E96225E05376007B8D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9E96D25E05376007B8D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D9E94F25E05373007B8D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9E95925E05373007B8D4C /* ContentView.swift in Sources */,
+				23D9E95725E05373007B8D4C /* bloodmoonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9E96025E05376007B8D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9E96925E05376007B8D4C /* bloodmoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9E96B25E05376007B8D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9E97425E05376007B8D4C /* bloodmoonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23D9E96625E05376007B8D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D9E95225E05373007B8D4C /* bloodmoon */;
+			targetProxy = 23D9E96525E05376007B8D4C /* PBXContainerItemProxy */;
+		};
+		23D9E97125E05376007B8D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D9E95225E05373007B8D4C /* bloodmoon */;
+			targetProxy = 23D9E97025E05376007B8D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23D9E97625E05376007B8D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23D9E97725E05376007B8D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23D9E97925E05376007B8D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"bloodmoon/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BPRAF5U4K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = bloodmoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oktosha.bloodmoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23D9E97A25E05376007B8D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"bloodmoon/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BPRAF5U4K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = bloodmoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oktosha.bloodmoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23D9E97C25E05376007B8D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BPRAF5U4K;
+				INFOPLIST_FILE = bloodmoonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oktosha.bloodmoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bloodmoon.app/bloodmoon";
+			};
+			name = Debug;
+		};
+		23D9E97D25E05376007B8D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BPRAF5U4K;
+				INFOPLIST_FILE = bloodmoonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oktosha.bloodmoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bloodmoon.app/bloodmoon";
+			};
+			name = Release;
+		};
+		23D9E97F25E05376007B8D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BPRAF5U4K;
+				INFOPLIST_FILE = bloodmoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oktosha.bloodmoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bloodmoon;
+			};
+			name = Debug;
+		};
+		23D9E98025E05376007B8D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BPRAF5U4K;
+				INFOPLIST_FILE = bloodmoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oktosha.bloodmoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bloodmoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D9E94E25E05373007B8D4C /* Build configuration list for PBXProject "bloodmoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D9E97625E05376007B8D4C /* Debug */,
+				23D9E97725E05376007B8D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D9E97825E05376007B8D4C /* Build configuration list for PBXNativeTarget "bloodmoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D9E97925E05376007B8D4C /* Debug */,
+				23D9E97A25E05376007B8D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D9E97B25E05376007B8D4C /* Build configuration list for PBXNativeTarget "bloodmoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D9E97C25E05376007B8D4C /* Debug */,
+				23D9E97D25E05376007B8D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D9E97E25E05376007B8D4C /* Build configuration list for PBXNativeTarget "bloodmoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D9E97F25E05376007B8D4C /* Debug */,
+				23D9E98025E05376007B8D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23D9E94B25E05373007B8D4C /* Project object */;
+}
