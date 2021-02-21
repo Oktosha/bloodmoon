@@ -9,11 +9,15 @@ import SwiftUI
 
 struct CycleProgressView: View {
     let cycleLength: Int
-    let cycleDay: Int
+    let cycleDay: Int?
     var body: some View {
         ZStack {
-            ProgressArc(progress: min(Double(cycleDay) / Double(cycleLength), 1))
-            Text("\(cycleDay)/\(cycleLength)").font(.largeTitle)
+            if cycleDay == nil {
+                Text("??/\(cycleLength)").font(.largeTitle)
+            } else {
+                ProgressArc(progress: min(Double(cycleDay!) / Double(cycleLength), 1))
+                Text("\(cycleDay!)/\(cycleLength)").font(.largeTitle)
+            }
         }
     }
 }

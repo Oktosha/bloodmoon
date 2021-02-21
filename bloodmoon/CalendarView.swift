@@ -13,7 +13,7 @@ struct CalendarView: View {
     let isToday: (Date) -> Bool
     var body: some View {
         VStack {
-            MonthView(month: month, isPeriod: {(_)->Bool in false}, isToday: Calendar.current.isDateInToday)
+            MonthView(month: month, isPeriod: isPeriod, isToday: Calendar.current.isDateInToday)
             Spacer()
             HStack {
                 Button(action: {shiftMonth(delta: -1)}, label: {
@@ -63,7 +63,7 @@ struct MonthView : View {
     var body: some View {
         VStack {
             ForEach(0..<6) {
-                WeekView(startDate: lastMondayOfPreviousMonth + TimeInterval(60 * 60 * 24 * 7 * $0), isPeriod: {(date: Date) -> Bool in false}, isToday: Calendar.current.isDateInToday)
+                WeekView(startDate: lastMondayOfPreviousMonth + TimeInterval(60 * 60 * 24 * 7 * $0), isPeriod: isPeriod, isToday: Calendar.current.isDateInToday)
                 if ($0 < 5) {
                     Spacer()
                 }

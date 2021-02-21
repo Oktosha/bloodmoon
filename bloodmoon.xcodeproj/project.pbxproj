@@ -16,6 +16,9 @@
 		23D9E98525E05CBD007B8D4C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E98425E05CBD007B8D4C /* SettingsView.swift */; };
 		23D9E98A25E05D0F007B8D4C /* CycleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E98925E05D0F007B8D4C /* CycleProgressView.swift */; };
 		23D9E98F25E05D76007B8D4C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E98E25E05D76007B8D4C /* CalendarView.swift */; };
+		23D9E9BE25E2D27A007B8D4C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E9BC25E2D27A007B8D4C /* Model.xcdatamodeld */; };
+		23D9E9C325E2D344007B8D4C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E9C225E2D344007B8D4C /* Persistence.swift */; };
+		23D9E9C825E2D919007B8D4C /* AddCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E9C725E2D919007B8D4C /* AddCycleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		23D9E98425E05CBD007B8D4C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		23D9E98925E05D0F007B8D4C /* CycleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleProgressView.swift; sourceTree = "<group>"; };
 		23D9E98E25E05D76007B8D4C /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		23D9E9BD25E2D27A007B8D4C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		23D9E9C225E2D344007B8D4C /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		23D9E9C725E2D919007B8D4C /* AddCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCycleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 			children = (
 				23D9E95625E05373007B8D4C /* bloodmoonApp.swift */,
 				23D9E95825E05373007B8D4C /* ContentView.swift */,
+				23D9E9C725E2D919007B8D4C /* AddCycleView.swift */,
+				23D9E9C225E2D344007B8D4C /* Persistence.swift */,
+				23D9E9BC25E2D27A007B8D4C /* Model.xcdatamodeld */,
 				23D9E98E25E05D76007B8D4C /* CalendarView.swift */,
 				23D9E98925E05D0F007B8D4C /* CycleProgressView.swift */,
 				23D9E98425E05CBD007B8D4C /* SettingsView.swift */,
@@ -269,10 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				23D9E98F25E05D76007B8D4C /* CalendarView.swift in Sources */,
+				23D9E9C825E2D919007B8D4C /* AddCycleView.swift in Sources */,
 				23D9E98525E05CBD007B8D4C /* SettingsView.swift in Sources */,
 				23D9E95925E05373007B8D4C /* ContentView.swift in Sources */,
+				23D9E9C325E2D344007B8D4C /* Persistence.swift in Sources */,
 				23D9E98A25E05D0F007B8D4C /* CycleProgressView.swift in Sources */,
 				23D9E95725E05373007B8D4C /* bloodmoonApp.swift in Sources */,
+				23D9E9BE25E2D27A007B8D4C /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +604,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23D9E9BC25E2D27A007B8D4C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23D9E9BD25E2D27A007B8D4C /* Model.xcdatamodel */,
+			);
+			currentVersion = 23D9E9BD25E2D27A007B8D4C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 23D9E94B25E05373007B8D4C /* Project object */;
 }
