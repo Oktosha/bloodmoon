@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                CycleProgressView(cycleLength: 31, cycleDay: 25).padding()
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("Log period")
+                })
+                CalendarView(month: Date(), isPeriod: {(_)->Bool in false}, isToday: Calendar.current.isDateInToday).padding(EdgeInsets(top: 20, leading: 60, bottom: 50, trailing: 60))
+            }.navigationBarItems(trailing: NavigationLink(
+                                    destination: SettingsView(),
+                                    label: {
+                                        Image(systemName: "gear")
+                                    }))
+        }
     }
 }
 

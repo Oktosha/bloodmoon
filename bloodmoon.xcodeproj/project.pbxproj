@@ -13,6 +13,9 @@
 		23D9E95E25E05375007B8D4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D9E95D25E05375007B8D4C /* Preview Assets.xcassets */; };
 		23D9E96925E05376007B8D4C /* bloodmoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E96825E05376007B8D4C /* bloodmoonTests.swift */; };
 		23D9E97425E05376007B8D4C /* bloodmoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E97325E05376007B8D4C /* bloodmoonUITests.swift */; };
+		23D9E98525E05CBD007B8D4C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E98425E05CBD007B8D4C /* SettingsView.swift */; };
+		23D9E98A25E05D0F007B8D4C /* CycleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E98925E05D0F007B8D4C /* CycleProgressView.swift */; };
+		23D9E98F25E05D76007B8D4C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E98E25E05D76007B8D4C /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		23D9E96F25E05376007B8D4C /* bloodmoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bloodmoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D9E97325E05376007B8D4C /* bloodmoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodmoonUITests.swift; sourceTree = "<group>"; };
 		23D9E97525E05376007B8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D9E98425E05CBD007B8D4C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		23D9E98925E05D0F007B8D4C /* CycleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleProgressView.swift; sourceTree = "<group>"; };
+		23D9E98E25E05D76007B8D4C /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				23D9E95625E05373007B8D4C /* bloodmoonApp.swift */,
 				23D9E95825E05373007B8D4C /* ContentView.swift */,
+				23D9E98E25E05D76007B8D4C /* CalendarView.swift */,
+				23D9E98925E05D0F007B8D4C /* CycleProgressView.swift */,
+				23D9E98425E05CBD007B8D4C /* SettingsView.swift */,
 				23D9E95A25E05375007B8D4C /* Assets.xcassets */,
 				23D9E95F25E05375007B8D4C /* Info.plist */,
 				23D9E95C25E05375007B8D4C /* Preview Content */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D9E98F25E05D76007B8D4C /* CalendarView.swift in Sources */,
+				23D9E98525E05CBD007B8D4C /* SettingsView.swift in Sources */,
 				23D9E95925E05373007B8D4C /* ContentView.swift in Sources */,
+				23D9E98A25E05D0F007B8D4C /* CycleProgressView.swift in Sources */,
 				23D9E95725E05373007B8D4C /* bloodmoonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
